@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background:linear-gradient(to right bottom, #57D6E8, #7382E8, #A000EB);
+    height: 100vh;
+}
+
+/* .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin: 250px auto;
+}
+
+.container > h1 {
+    margin: 20px;
+} */
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 350px;
+    height: 450px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.login-close {
+    font-size: 22px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.login-title {
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+form > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+}
+
+form > div > label {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+form > div > input {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.login-link-forgot-password {
+    text-decoration: none;
+    color: rgb(51, 109, 233);
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.login-button {
+    background: linear-gradient(to right, #57D6E8, #7382E8, #A000EB);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.login-button:hover {
+    box-shadow: 0 0 4px 0px black;
+    cursor: pointer;
+}
+
+.not-a-member {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(77, 77, 77);
+}
+
+.login-link-signup-now {
+    text-decoration: none;
+    color: rgb(51, 109, 233);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* form > .campo {
+    padding: 8px 45px;
+    border:gray 1px solid;
+}
+
+form > .button {
+    margin: 15px;
+    pading: 8px 45px;
+    background: linear-gradient(90deg,#57d6e8, #7382e8, #a000eb);
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #13b5ca;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+} */
